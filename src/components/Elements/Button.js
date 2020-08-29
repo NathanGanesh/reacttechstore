@@ -5,7 +5,7 @@ export default function Button({ name, btnclass, link }) {
 	return (
 		<div>
 			<Link to={link}>
-				<button className={btnclass}>{name}</button>;
+				<button className={btnclass}>{name}</button>
 			</Link>
 		</div>
 	);

@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 export default function SideBar({ index }) {
-	console.log(index);
 	function displayPage(index) {
 		let jungle = '';
 		index === 1 ? (jungle = 'inline-block') : (jungle = 'none');
@@ -11,7 +10,6 @@ export default function SideBar({ index }) {
 
 		index === 1 ? (zindex = 1000) : (zindex = -1000);
 
-		console.log(jungle);
 		switch (index) {
 			default:
 			case 1:

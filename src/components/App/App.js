@@ -16,8 +16,8 @@ function App() {
 	return (
 		<BrowserRouter>
 			<Nav />
-			<SideBar />
-			<SideCart />
+			<SideBar index={0} />
+			<SideCart sideCartIndex={0} />
 			<Switch>
 				<Route exact path="/" component={Home} />
 				<Route exact path="/contact" component={Contact} />
