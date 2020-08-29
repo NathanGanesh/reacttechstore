@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { FaCartPlus, FaBars } from 'react-icons/fa';
 import SideBar from './SideBar';
 import SideCart from './SideCart';
+import { Link } from 'react-router-dom';
 
 export default function Navbar() {
 	// console.log(window.location.origin + '/page-images/images/logo.svg');
@@ -28,7 +29,9 @@ export default function Navbar() {
 		<nav className="flex-nav">
 			<FaBars onClick={() => handeClick()} className="nav-icon" />
 			<SideBar index={index} />
-			<img src={window.location.origin + '/page-images/images/logo.svg'} alt="logo" />
+			<Link to="/">
+				<img src={window.location.origin + '/page-images/images/logo.svg'} alt="logo" />
+			</Link>
 			<FaCartPlus className="nav-icon" onClick={() => handleCart()} />
 			<SideCart sideCartIndex={sidebarIndex} />
 		</nav>

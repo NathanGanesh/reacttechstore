@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Hero from '../Elements/Hero';
 import SingleProductInfo from '../Elements/SingleProduct/SingleProductInfo';
 import Footer from '../Elements/Footer';

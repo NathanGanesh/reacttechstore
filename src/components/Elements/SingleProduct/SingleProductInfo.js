@@ -23,7 +23,7 @@ export default function SingleProductInfo(props) {
 				<h5>Some Info About Product :</h5>
 				<p>{description}</p>
 				<div className="product-info-btn">
-					<Button link="/add_to_cart" btnclass="btn-default" name="add to cart" />
+					<Button btnclass="btn-default" name="add to cart" />
 				</div>
 				<div className="product-info-btn">
 					<Button link="/products" btnclass="btn-default" name="back to products" />

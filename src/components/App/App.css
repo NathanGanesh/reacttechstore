@@ -418,3 +418,21 @@
 .container-single-product {
 	margin: 20px;
 }
+
+.product-icon {
+	border: 3px;
+	border-style: solid;
+}
+
+.product-icon-container {
+	display: flex;
+	justify-content: center;
+	/* position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: scale(0);
+	transition: all 0.3s linear; */
+}
+.product-icon-container div {
+	padding-right: 30px;
+}
