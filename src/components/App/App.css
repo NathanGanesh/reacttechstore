@@ -181,16 +181,20 @@
 }
 
 .form-spree input {
-	width: 250px;
+	width: 350px;
+	height: 20px;
+	padding: 5px;
 }
 
 .form-spree textarea {
-	width: 250px;
+	width: 350px;
+	padding: 5px;
 }
 
 .form-spree button {
-	width: 250px;
+	width: 350px;
 	margin: auto;
+	padding: 5px;
 }
 
 .input {
@@ -203,4 +207,11 @@
 
 .footer-icon {
 	font-size: 24px;
+}
+
+.contact-us {
+	font-size: 3rem;
+	text-align: center;
+	margin-right: 150px;
+	margin-right: 0 40px;
 }
