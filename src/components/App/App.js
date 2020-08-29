@@ -11,6 +11,7 @@ import Error from '../Pages/Error';
 import Nav from '../Elements/Navbar';
 import SideBar from '../Elements/SideBar';
 import SideCart from '../Elements/SideCart';
+import SingleProduct from '../Pages/SingleProduct';
 
 function App() {
 	return (
@@ -24,7 +25,7 @@ function App() {
 				<Route exact path="/products" component={Products} />
 				<Route exact path="/cart" component={Cart} />
 				<Route exact path="/about" component={About} />
-				<Route exact path="/products/:name" />
+				<Route exact path="/products/:name" component={SingleProduct} />
 				<Route component={Error} />
 			</Switch>
 		</BrowserRouter>
