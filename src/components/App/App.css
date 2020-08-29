@@ -273,14 +273,17 @@
 .side-bar {
 	position: fixed;
 	font-size: 2rem;
-	width: 300px;
+	width: 350px;
 	height: 100vh;
 	top: 66px;
 	background: lightgrey;
 	border-bottom: 3px solid wheat;
-	z-index: 1;
-	display: flex;
+	z-index: 1000;
+	display: inline-block;
 	flex-direction: column;
+	margin-right: 15px;
+	left: 0px;
+	right: 0px;
 }
 .side-bar div {
 	margin: 15px;
