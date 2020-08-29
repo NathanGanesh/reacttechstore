@@ -6,9 +6,9 @@ export default function Footer() {
 			<div>
 				<p>Copyright © Tech Store 2020. All Rights Reserved</p>
 			</div>
-			<FaFacebookF />
-			<FaLinkedinIn />
-			<FaTwitch />
+			<FaFacebookF className="footer-icon" />
+			<FaLinkedinIn className="footer-icon" />
+			<FaTwitch className="footer-icon" />
 		</div>
 	);
 }

@@ -5,9 +5,13 @@
 }
 .flex-nav {
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
+	padding: 0 20px;
 	align-items: center;
 	height: 66px;
+}
+.nav-icon {
+	font-size: 24px;
 }
 
 .home {
@@ -54,16 +58,23 @@
 	color: white;
 	text-decoration: none;
 	display: inline-block;
-	font-size: 14px;
+	padding: 5px 7px;
+	font-size: 1.5rem;
 	letter-spacing: 2px;
 	outline: 2px solid #008cba;
-	outline-offset: 2px;
+	outline-offset: 3px;
 	text-transform: uppercase;
 	display: flex;
 	text-align: center;
 	justify-content: center;
 	margin: auto;
-	margin-bottom: 25px;
+	margin-bottom: 35px;
+	margin-top: 20px;
+}
+
+.btn-our-products:hover {
+	background: #3071a9;
+	transition: all 0.3s ease 0s;
 }
 
 .btn-default:hover {
@@ -79,30 +90,42 @@
 }
 
 .service-icon {
-	font-size: 48px;
+	font-size: 66px;
 }
 .services div {
-	padding: 20px;
-	padding-left: 40px;
+	padding: 30px;
+	padding-left: 30px;
+	padding-bottom: 50px;
+	padding-top: 40px;
 }
+.services div > h6 {
+	font-size: 1.8rem;
+	padding-bottom: 1rem;
+}
+
+.services div > p {
+	font-size: 1.2rem;
+}
+
 .therealdeal {
 	justify-content: center;
 	text-align: center;
 	align-items: center;
-	padding-top: 10px;
+	padding-bottom: 30px;
+	padding-top: 25px;
+	font-size: 1.5rem;
 }
 .featured-items {
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
 	justify-content: center;
 	text-align: center;
-	grid-gap: 20px;
-	padding-bottom: 25px;
+	grid-gap: 30px;
 }
 
 .product-img {
-	width: 125px;
-	height: 125px;
+	width: 250px;
+	height: 250px;
 }
 
 .product-descriptions {
@@ -112,14 +135,14 @@
 }
 
 .product-descriptions p {
-	font-size: 12px;
+	font-size: 1.5rem;
 	padding-left: 10px;
 	padding-right: 30px;
 }
 
 .product-item {
-	width: 1fr;
-
+	width: 333px;
+	height: 333px;
 	margin: auto;
 	padding-bottom: 10px;
 	text-align: center;
@@ -139,10 +162,11 @@
 	align-items: center;
 	height: 66px;
 	background: grey;
+	padding-right: 15px;
 }
 
 .footer p {
-	font-size: 12px;
+	font-size: 1.2rem;
 }
 .contact-us {
 	padding: 25px;
@@ -175,4 +199,8 @@
 .btn-send {
 	margin-bottom: 20px;
 	padding-top: 5px;
+}
+
+.footer-icon {
+	font-size: 24px;
 }

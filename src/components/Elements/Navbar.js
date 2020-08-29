@@ -5,9 +5,9 @@ export default function Navbar() {
 	console.log(window.location.origin + '/page-images/images/logo.svg');
 	return (
 		<nav className="flex-nav">
-			<FaBars />
+			<FaBars className="nav-icon" />
 			<img src={window.location.origin + '/page-images/images/logo.svg'} alt="logo" />
-			<FaCartPlus />
+			<FaCartPlus className="nav-icon" />
 		</nav>
 	);
 }
