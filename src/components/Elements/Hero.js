@@ -5,7 +5,7 @@ export default function Hero(props) {
 	return (
 		<div className={props.class}>
 			<h1 className="home-title">{props.title}</h1>
-			<Button name={props.buttonText} btnclass={props.btnclass} />
+			<Button name={props.buttonText} btnclass={props.btnclass} link={props.link} />
 		</div>
 	);
 }

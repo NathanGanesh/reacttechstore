@@ -7,7 +7,6 @@ import MyForm from '../Elements/Contact/MyForm';
 export default function Contact() {
 	return (
 		<div>
-			<Nav />
 			<Hero class="contact" />
 			<h1 className="contact-us">Contact us</h1>
 			<MyForm />

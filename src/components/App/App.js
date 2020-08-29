@@ -8,10 +8,16 @@ import Products from '../Pages/Products';
 import Cart from '../Pages/Cart';
 import About from '../Pages/About';
 import Error from '../Pages/Error';
+import Nav from '../Elements/Navbar';
+import SideBar from '../Elements/SideBar';
+import SideCart from '../Elements/SideCart';
 
 function App() {
 	return (
 		<BrowserRouter>
+			<Nav />
+			<SideBar />
+			<SideCart />
 			<Switch>
 				<Route exact path="/" component={Home} />
 				<Route exact path="/contact" component={Contact} />

@@ -10,11 +10,16 @@ import Footer from '../Elements/Footer';
 export default function Home() {
 	return (
 		<div>
-			<NavBar />
-			<Hero buttonText="our products" title="awesome gadgets" class="home" btnclass="btn-default" />
+			<Hero
+				buttonText="our products"
+				title="awesome gadgets"
+				class="home"
+				btnclass="btn-default"
+				link="/products"
+			/>
 			<Services />
 			<Featured items={items} />
-			<Button name="our products" btnclass="btn-our-products" />
+			<Button name="our products" btnclass="btn-our-products" link="/products" />
 			<Footer />
 		</div>
 	);
