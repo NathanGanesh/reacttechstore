@@ -32,6 +32,16 @@
 	flex-direction: column;
 }
 
+.about {
+	background: rgba(0, 0, 0, .15) url("/page-images/images/aboutBcg.jpeg") center/cover no-repeat;
+	min-height: calc(60vh - 66px);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	background-blend-mode: darken;
+}
+
 .home-title {
 	font-size: 4rem;
 	color: whitesmoke;
@@ -120,18 +130,20 @@
 	grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
 	justify-content: center;
 	text-align: center;
-	grid-gap: 30px;
+	padding: 10px;
+	margin: auto;
 }
 
 .product-img {
 	width: 250px;
-	height: 250px;
+	height: 275px;
 }
 
 .product-descriptions {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
+	margin: auto;
 }
 
 .product-descriptions p {
@@ -149,6 +161,8 @@
 	box-shadow: 3px 3px 8px #888888;
 	justify-content: center;
 	text-align: center;
+	margin: auto;
+	margin-top: 25px;
 }
 
 .featured-items {
@@ -214,4 +228,35 @@
 	text-align: center;
 	margin-right: 150px;
 	margin-right: 0 40px;
+}
+
+.about-us {
+	display: flex;
+	flex-direction: row;
+	padding-top: 35px;
+	padding-left: 15px;
+}
+.about-us img {
+	width: 450px;
+	height: 300px;
+	border-style: solid;
+	border-color: grey;
+	margin: 20px;
+	margin-bottom: 60px;
+}
+
+.about-us h1 {
+	font-size: 3rem;
+}
+.about-us p {
+	font-size: 1.2rem;
+	padding-top: 15px;
+}
+
+.about-us Button {
+	margin-top: 45px;
+}
+
+.about-us-description {
+	padding: 10px;
 }
